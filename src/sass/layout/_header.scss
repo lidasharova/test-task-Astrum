@@ -1,0 +1,64 @@
+.header {
+  background-image: url('/img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.header__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-img {
+  background-image: url('/img/logo.png');
+  width: 376px;
+  height: 348px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.header__content {
+  position: relative;
+  top: -80px;
+  text-align: center;
+  color: $color-font-header;
+}
+
+.header__title {
+  display: block;
+  font-size: 42px;
+  line-height: 49px;
+}
+.header__subtitle {
+  display: block;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.games {
+  position: relative;
+  background-image: url('/img/games.png');
+  width: 766px;
+  height: 525px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  align-items: center;
+  cursor: pointer;
+  top: -80px;
+}

@@ -1,0 +1,15 @@
+//миксин для построение колонок необходимого размера
+@mixin columns($width) {
+  display: flex;
+  justify-content: space-between;
+  > * {
+    flex-basis: $width;
+  }
+}
+
+//миксин для шрифта
+@mixin font($size, $height, $weight) {
+  font-size: $size;
+  line-height: $height;
+  font-weight: $weight;
+}

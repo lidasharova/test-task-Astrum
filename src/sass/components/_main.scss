@@ -1,0 +1,180 @@
+.shop {
+  position: relative;
+  background-image: url('/img/main-section/bg-main.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -50px;
+}
+
+.shop__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop__img {
+  background-image: url('/img/main-section/Vito 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 441px;
+  height: 891px;
+  margin-right: 160px;
+}
+
+.shop__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop__title {
+  color: $color-main-title;
+  size: 30px;
+  margin-bottom: 35px;
+  align-items: flex-start;
+  margin-top: 54px;
+}
+
+.shop__button__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 9px;
+}
+.shop__button {
+  width: 140px;
+  height: 23px;
+  border: 1px solid $color-border-btn;
+  color: $color-font-btn;
+  background-color: $color-background;
+  font-size: 12px;
+  margin-left: 11px;
+}
+
+.shop__table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-font-table;
+  font-size: 16px;
+}
+
+.table__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid $color-border-btn;
+  margin-bottom: 1px;
+  width: 632px;
+  height: 74px;
+}
+
+.table__item__description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.table__item__time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 291px;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.shop__item__icon_1 {
+  background-image: url('/img/main-section/icons/часы.png');
+}
+.shop__item__icon_2 {
+  background-image: url('/img/main-section/icons/тулбокс.png');
+}
+
+.shop__item__icon_3 {
+  background-image: url('/img/main-section/icons/хрупкая.png');
+}
+
+.shop__item__icon_4 {
+  background-image: url('/img/main-section/icons/большой-символ.png');
+}
+
+.shop__item__icon_5 {
+  background-image: url('/img/main-section/icons/мана.png');
+}
+
+.shop__item__icon_6 {
+  background-image: url('/img/main-section/icons/модуль.png');
+}
+
+.shop__item__icon_7 {
+  background-image: url('/img/main-section/icons/вито.png');
+}
+
+.shop__item__text {
+  display: block;
+  width: 200px;
+}
+
+.shop__item__free,
+.shop__item__cost {
+  width: 70px;
+  text-align: center;
+}
+
+.game__box__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.game__box__img {
+  background-image: url('/img/main-section/box.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 402px;
+  height: 323px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.game__box__content {
+  position: absolute;
+  left: 273px;
+  bottom: 57px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 180px;
+}
+
+.game__price {
+  margin-right: auto;
+  font-size: 50px;
+  color: $color-font-table;
+  text-align: left;
+  margin-bottom: 23px;
+}
+
+.game__button {
+  width: 180px;
+  height: 40px;
+  background-color: $color-game-button;
+  color: $color-background;
+  font-size: 16px;
+  border-radius: 7px;
+  border: none;
+}

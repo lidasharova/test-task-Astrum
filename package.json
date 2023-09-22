@@ -1,0 +1,15 @@
+{
+  "name": "test-task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "style": "sass --watch  src/sass/style.scss style.css"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}

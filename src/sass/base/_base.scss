@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
+    url('/fonts/Roboto-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto-Condensed';
+  src: url('/fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+    url('/fonts/RobotoCondensed-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: $color-background;
+}
+
+body,
+h3 {
+  @extend %font-Roboto-Regular;
+}
+
+h1,
+h2 {
+  @extend %font-Roboto-Bold;
+}
+
+h1,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container-page {
+  margin: 0 auto;
+  width: 1920px;
+}
