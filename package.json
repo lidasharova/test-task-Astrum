@@ -10,6 +10,7 @@
     "style": "sass --watch  src/sass/style.scss style.css"
   },
   "devDependencies": {
+    "netlify-cli": "^16.4.2",
     "vite": "^4.4.5"
   }
 }

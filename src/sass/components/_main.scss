@@ -3,7 +3,7 @@
   background-image: url('/img/main-section/bg-main.png');
   background-repeat: no-repeat;
   background-size: cover;
-  top: -50px;
+  z-index: 1;
 }
 
 .shop__wrapper {
@@ -56,7 +56,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: $color-font-table;
+  color: $color-font-light;
   font-size: 16px;
 }
 
@@ -69,6 +69,11 @@
   margin-bottom: 1px;
   width: 632px;
   height: 74px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .table__item__description {
@@ -164,7 +169,7 @@
 .game__price {
   margin-right: auto;
   font-size: 50px;
-  color: $color-font-table;
+  color: $color-font-light;
   text-align: left;
   margin-bottom: 23px;
 }
@@ -177,4 +182,10 @@
   font-size: 16px;
   border-radius: 7px;
   border: none;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  &:hover {
+    background-color: $color-game-button-hover;
+    color: $color-font-light;
+  }
 }
