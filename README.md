@@ -1,6 +1,6 @@
 # This is test task from Astrum Entertainment
 
-### [deploy landing page](https://test-task-Astrum.netlify.app)
+### [deploy landing page](https://test-task-astrum-malkova.netlify.app/)
 
 ### Tech Stack
 - HTML
