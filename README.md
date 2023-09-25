@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
    ```
 2. Navigate to the project directory:
    ```bash
-   $ cd test-task
+   $ cd test-task-Astrum
    ```
 3. Install the project dependencies (Node.js must be installed):
    ```bash
